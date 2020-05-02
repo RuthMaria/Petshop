@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Cadastrar || Oh My Dog!Petshop</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+    {	color: #419be8;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .style12 {color: #BB0000}
+    .style13 {color: #EEEEEE}
+    .style121 {color: #FFFFFF}
+    </style>
+    <script type="text/javascript" src="http://cidades-estados-js.googlecode.com/files/cidades-estados-v0.2.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+			new dgCidadesEstados(
+            document.getElementById('estado'),
+            document.getElementById('cidade'),
+            true
+			);
+			}
+		</script>	
+   <script src="js/funcoes.js" type="text/javascript"></script>
+</head>
+<body>	
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														<div id="corpo">
+<div id="cabecalho">
+  <table width="901">
+  <tr>
+    <td width="540"><a href="index.htm"><img src="images/cabecalho.png" width="400" height="111" /></a></td>
+    <td width="349" align="right" id="links"><a href="index.htm" class="cabLink"><strong>HOME</strong></a><strong>
+    <span class="style121"> | </span><a href="sobreLoja.html" class="cabLink">SOBRE A LOJA </a><span class="style121">| 
+    </span><a href="cadastrar.html" class="cabLink">CADASTRAR </a><span class="style121">| 
+    </span><a href="login.html" class="cabLink"> LOGIN</a></strong></td>
+  </tr>
+  <tr><td></td><td>
+  <form>
+      <input class="inputPesquisa" type="text" name="txtPesquisar" size="35" />
+	  <input class="pesquisar" type="submit" name="txtPesquisar" width="25" height="17" value="pesquisar" onclick="pesquisa();"/>
+  </form> 
+  </table> 
+</div> 
+  <div id=logoEmpresa><br><br>
+  	<h2>CADASTRO DE USU&Aacute;RIO</h2><br>
+	<p><a href="index.htm"><strong>Home</strong></a>  » <strong>Cadastrar</strong></p>
+	<hr><br>
+	<span class="style13"><br>
+ 	</span>
+	<fieldset>
+	<legend ><strong>Dados Pessoais</strong></legend>
+	<form >
+	  <table>
+			<tr>
+			  <td width="118"><strong>
+			    <label>Nome completo<span class="style12">*</span></label>
+			  </strong></td>
+			  <td width="185"><strong>
+		      <input name="txtNome" type="text" size="50">
+			  </strong></td>
+			</tr>			
+			<tr>
+			  <td width="118"><strong>
+			    <label>CPF <span class="style12">*</span></label>
+			  </strong></td>
+			  <td width="185"><strong>
+		      <input name="txtCPF" type="text" size="50">
+			  </strong></td>
+			</tr>
+			<tr>
+			  <td width="118"><strong>
+			    <label>Telefone <span class="style12">*</span></label>
+			  </strong></td>
+			  <td width="185"><strong>
+		      <input name="txtSubNome" type="text" size="50">
+			  </strong></td>
+			</tr>
+			<tr>
+			  <td width="118"><strong>
+			    <label>Endereço <span class="style12">*</span></label>
+			  </strong></td>
+			  <td width="185"><strong>
+		      <input name="txtNome" type="text" size="50">
+			  </strong></td>
+			</tr>
+			<tr>
+			  <td width="118"><strong>
+			    <label>Sexo <span class="style12">*</span></label>
+			  </strong></td>
+			  <td width="185">
+			    <input type="radio" name="rdSexo" value="m">
+			    Masculino
+                <input type="radio" name="rdSexo" value="f">
+                Feminino</td>
+			</tr>
+	  </table>
+    </form>
+	
+    </fieldset>
+	
+	<fieldset>
+    <legend ><strong>Informações de Usuário</strong></legend>
+	<form method="post">
+   		<table>
+			  <td width="118">
+			    <label><strong>E-mail</strong></label>
+			    
+			    <label> <span class="style12">*</span></label>
+			    </td>
+			  <td width="185"><strong>
+		      <input name="txtSubNome" type="text" size="50">
+			  </strong></td>
+			</tr>
+			<tr>
+			  <td width="118">
+			    <label><strong>Senha</strong></label>
+			    
+			    <label> <span class="style12">*</span></label>
+			    </td>
+			  <td width="185"><strong>
+		      <input name="txtNumero" type="password" size="50">
+			  </strong></td>
+			</tr>
+						<tr>
+			  <td width="118">
+			    <label><strong>Confirmar Senha</strong></label>
+			    
+			    <label><span class="style12">*</span></label>
+			    </td>
+			  <td width="185"><strong>
+		      <input name="txtNumero" type="password" size="50">
+			  </strong></td>
+			</tr>
+		</table>
+</form >
+</fieldset>
+        <div id="btnBotoes">		
+		  <p><input type= "submit" name = "salvar" value = "salvar" onclick="cadastro();">&nbsp;&nbsp;
+		  &nbsp;<input type= "submit" name = "cancelar" value = "cancelar" onclick="voltar();"></p>
+		</div>
+    </form>
+  </div>  
+  
+  <div id="rodape">
+    <p class="copy"><strong>Oh My Dog! PetShop &copy; 2013 || Todos os Direitos Reservados.</strong></p>
+  </div>
+</div>
+</body>
+</html>
